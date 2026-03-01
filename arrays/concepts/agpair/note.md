@@ -7,7 +7,7 @@ Given a string, count the number of pairs `(i, j)` where:
 - `string[j] == 'g'`
 - `i < j` (the `'a'` must come **before** the `'g'`)
 
-> Example: `'acbagkagg'` → pairs are `(a,g)` at positions (0,4), (0,7), (0,8), (4,7), (4,8) = **5 pairs**
+> Example: `'acbagkagg'` → pairs are `(a,g)` at positions (0,4), (0,7), (0,8), (3,4), (3,7), (3,8), (6,7), (6,8)  = **8 pairs**
 
 ---
 
