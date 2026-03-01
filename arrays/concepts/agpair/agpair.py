@@ -3,9 +3,9 @@ string='acbagkagg'
 length=len(string)
 
 pair_count=0
-for i in range(length-1):
+for i in range(length):
   if (string[i]=='a'):
-    for j in range(i+1,length-1):
+    for j in range(i+1,length):
       if (string[j]=='g'):
         pair_count+=1
 print(pair_count)
