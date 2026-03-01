@@ -111,14 +111,14 @@ The inner loop `k` **prints from index 0 up to j**.
 
 ### Print ALL subarrays (every start index)
 ```python
-arr = [1, 2, 3]
+## printing subarray from 0 th index
+arr = [1,2,3]
 n = len(arr)
 
-for start in range(n):          # starting index
-    for end in range(start, n): # ending index
-        for k in range(start, end + 1):  # print elements
-            print(arr[k], end=" ")
-        print()
+for j in range(0, n):
+    for k in range(0, j+1): ## why j+1 when i=0, k can be 0 (not 0,1 as range doesn't include last index) ; i=1, k can be 0,1 ; i=2, k can be 0,1,2
+        print(arr[k], end=" ") # giving space after the number eg:; 1 2
+    print() ## for pring the second loop, it will take it to new line
 ```
 
 **Output:**
