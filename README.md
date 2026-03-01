@@ -23,7 +23,7 @@
 
 ## 👋 What is this?
 
-This repo is my **public learning journal** for Data Structures & Algorithms.
+This repo is my **public learning journal** for Data Structures & Algorithms in **Python** .
 
 Every single day, I:
 - 📖 Study a concept
@@ -46,8 +46,8 @@ Phase 4 — Advanced Topics      ░░░░░░░░░░░░░░░�
 
 | Phase | Topics | Status |
 |-------|--------|--------|
-| 🟢 Phase 1 | Arrays, Strings, Hashing, Two Pointers, Sliding Window | In Progress |
-| 🔵 Phase 2 | Recursion, Stacks, Queues, Linked Lists, Trees, BST | Up Next |
+| 🟢 Phase 1 | Arrays, Strings, PrefixSum, Two Pointers, Sliding Window | In Progress |
+| 🔵 Phase 2 | Recursion, Stacks, Queues, Linked Lists, Trees, BST,Hashing | Up Next |
 | 🟠 Phase 3 | Graphs (BFS/DFS), Heaps, Dynamic Programming | Locked |
 | 🔴 Phase 4 | Tries, Segment Trees, Bit Manipulation, Backtracking | Locked |
 
@@ -149,7 +149,7 @@ Every problem I solve follows this structure:
 - *Introduction to Algorithms (CLRS)* *(Reference)*
 - NeetCode 150 Course
 
-**My Language:** `Python` / `JavaScript` *(pick yours)*
+**My Language:** `Python`
 
 ---
 
