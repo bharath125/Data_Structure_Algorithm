@@ -6,3 +6,11 @@ for j in range(0, n):
     for k in range(0, j+1): ## why j+1 when i=0, k can be 0 (not 0,1 as range doesn't include last index) ; i=1, k can be 0,1 ; i=2, k can be 0,1,2
         print(arr[k], end=" ") # giving space after the number eg:; 1 2
     print() ## for pring the second loop, it will take it to new line
+
+
+## printing all the possible subarrays
+for i in range(0, n): ## (0,3) = 0,1,2
+    for j in range(i, n): ## (0,3), (1,3), (2,3)
+        for k in range(i,j+1): ## (0,1), (1,2), (2,3)
+            print(arr[k], end=" ")  
+        print()
