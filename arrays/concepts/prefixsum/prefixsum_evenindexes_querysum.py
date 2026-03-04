@@ -3,7 +3,7 @@ A=[2,8,3,9,15] # [2,2,5,5,20]
 B=[[1,4],[0,2],[2,3]]
 
 ## brute force solution
-Q=len(B)
+Q=len(B)    ## TC: O(N*Q) SC: O(1)
 for in in range(Q):
     L=B[i][0]
     R=B[i][1]
@@ -13,16 +13,10 @@ for in in range(Q):
             total+=A[j]
     print(total)
 
-
-
-
-
 ## optimized solution
+
 ## first find the prefix sum array at even indexes
-
-
-
-prefix_sum=[]
+prefix_sum=[]  ## TC: O(N+Q) SC: O(1)
 tot=0
 for i in range(len(A)):
     if (i%2==0):
@@ -32,7 +26,7 @@ for i in range(len(A)):
         prefix_sum.append(tot)
 print(prefix_sum)
 
-Q=len(B)
+Q=len(B)  
 res=[]
 for i in range(Q):
     # print(i)
