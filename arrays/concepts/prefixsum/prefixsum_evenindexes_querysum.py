@@ -1,9 +1,26 @@
 ## prefix sum of even indexes of querysum
-
-## first find the prefix sum array at even indexes
-
 A=[2,8,3,9,15] # [2,2,5,5,20]
 B=[[1,4],[0,2],[2,3]]
+
+## brute force solution
+Q=len(B)
+for in in range(Q):
+    L=B[i][0]
+    R=B[i][1]
+    total=0
+    for j in range(L,R+1):
+        if (j%2==0):
+            total+=A[j]
+    print(total)
+
+
+
+
+
+## optimized solution
+## first find the prefix sum array at even indexes
+
+
 
 prefix_sum=[]
 tot=0
