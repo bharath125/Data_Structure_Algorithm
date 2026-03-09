@@ -37,6 +37,19 @@ for i in range(n):
         total_sum+=subArraySum
 print(total_sum)
 
+## as this quesiton asked in Google and Facebok interviews
+## challenge is solve it in TC :O(n) and SC : O(1)
+
+## for the array possible subarrays are 
+## 2, 2 8, 2 8 1, 2 8 1 3
+## 8, 8 1, 8 1 3
+## 1, 1 3
+## 3
+## observation 2 x 4 times + 8 x 6 times + 1 x 6 times + 3 x 4 times
+## we know the what are A[0], A[1], A[2] and A[3]
+## but we don't know the occurances of each elements
+## How to find the number of occurenaces at each index ??
+## I came up with formula (i+1)x(n-i)
 
 
 
