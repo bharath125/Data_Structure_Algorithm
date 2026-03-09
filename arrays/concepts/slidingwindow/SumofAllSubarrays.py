@@ -50,10 +50,27 @@ print(total_sum)
 ## but we don't know the occurances of each elements
 ## How to find the number of occurenaces at each index ??
 ## I came up with formula (i+1)x(n-i)
+## array A=[3,-2,4,-1,2,6,8,-9]
+## number of start indeces start from, for which index 3 
+## number of end indeces , for which index 3 
+## start index - end index
+## 0     - 3  from 0 to map 3,4,5,6,7
+## 1     - 4   
+## 2     - 5
+## 3     - 6
+##       - 7
 
+## A[0]x(n-i)x(i+1)
 
+## optimized solution
 
+## TC: O(n) SC: O(1)
 
+n=len(A)
+total_sum=0
+for i in range(n):
+    total_sum+=A[i]*(i+1)*(n-i)
+print(total_sum)
 
 
 
