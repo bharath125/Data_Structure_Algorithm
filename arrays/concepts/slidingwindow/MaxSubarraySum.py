@@ -45,5 +45,44 @@ print(ans)
 
 
 
+## can we optimize more ??
+## If the expectation is TC : O(n) SC : O(1)
+## we can do with the sliding window approach
+
+
+n=len(A)
+ans=float('-inf')
+subarraysum=0
+## first window
+for i in range(0,K-1+1):
+    subarraysum+=A[i]
+    
+s=1 ## start index staring from 2nd window
+e=K ##end index from 2nd window
+
+
+
+while (e<n):
+    subarraysum=subarraysum-A[s-1]+A[e] ## formula for sliding window sum-A[s-1]+A[e]
+    ans=max(subarraysum,ans)
+    s+=1
+    e+=1
+print(ans)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
