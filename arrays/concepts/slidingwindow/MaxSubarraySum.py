@@ -18,3 +18,32 @@ while (e<n): ## TC : O((n-k)+1 )
     s+=1
     e+=1
 print(ans)
+
+## optimization using the prefix sum
+## TC : O(n) SC: O(n)
+n=len(A)
+ans=float('-inf')
+s=0 ## start index
+e=K-1 ##end index
+
+pf_sum=[]
+total=0
+for i in range(n):  ## TC : O(n)
+    total+=A[i]
+    pf_sum.append(total)
+
+while (e<n): ## TC : O((n-k)+1 )
+    subarraysum=0
+    if s==0:
+        subarraysum=pf_sum[e]
+    else:
+        subarraysum=pf_sum[e] - pf_sum[s-1]
+    ans=max(subarraysum,ans)
+    s+=1
+    e+=1
+print(ans)
+
+
+
+
+
