@@ -6,6 +6,9 @@
             
         for i in range(0,B-1+1):
             window_sum+=A[i]
+
+        if window_sum==C:
+                return 1
         
         start=1
         end=B
