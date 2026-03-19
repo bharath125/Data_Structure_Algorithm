@@ -4,13 +4,12 @@
 ---
 
 ## 📖 Table of Contents
-1. [Why Binary Search is called "Binary"](#why-binary-search)
-2. [The 10⁸ Rule — Your Golden Budget](#the-10⁸-rule)
-3. [The Golden Table — N → Complexity → Algorithm](#the-golden-table)
-4. [The Complete Cheat Card](#the-complete-cheat-card)
-5. [Magic Phrases → Instant Algorithm Signals](#magic-phrases)
-6. [Problem Patterns Deep Dive](#problem-patterns-deep-dive)
-7. [The Mental Process for Any Problem](#the-mental-process)
+1. [The 10⁸ Rule — Your Golden Budget](#the-10⁸-rule)
+2. [The Golden Table — N → Complexity → Algorithm](#the-golden-table)
+3. [The Complete Cheat Card](#the-complete-cheat-card)
+4. [Magic Phrases → Instant Algorithm Signals](#magic-phrases)
+5. [Problem Patterns Deep Dive](#problem-patterns-deep-dive)
+6. [The Mental Process for Any Problem](#the-mental-process)
 
 ---
 
