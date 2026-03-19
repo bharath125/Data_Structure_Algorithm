@@ -1,4 +1,4 @@
-## SortedInsertPosition
+## SortedInsertPosition  TC : O(logN) and SC : O(1)
  def searchInsert(self, A, B):
         N=len(A)
         L=0   # left
