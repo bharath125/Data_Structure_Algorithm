@@ -1,4 +1,5 @@
- def searchRange(self, A, B):
+## TC : O(log2N) and SC : O(10
+def searchRange(self, A, B):
         N=len(A)
         L=0
         R=N-1
