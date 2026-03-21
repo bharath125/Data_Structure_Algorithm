@@ -1,4 +1,4 @@
-    def solve(self, A):
+    def solve(A):
         N=len(A)
        
         if N==1: return A[0]
