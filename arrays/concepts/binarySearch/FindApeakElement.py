@@ -1,4 +1,5 @@
-    def solve(A):
+## TC : O(logN) and SC : O(1)
+def solve(A):
         N=len(A)
        
         if N==1: return A[0]
