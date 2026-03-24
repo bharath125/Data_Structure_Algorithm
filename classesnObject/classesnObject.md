@@ -1,5 +1,5 @@
 # 🐍 Python OOP — Complete Notes
-> **Author:** Bharath Nandipati
+> **Author:** Bharath Nandipati 
 > **Topic:** Object-Oriented Programming in Python  
 > **Level:** Beginner → Intermediate  
 > **Last Updated:** 2026
