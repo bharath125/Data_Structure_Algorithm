@@ -4,6 +4,8 @@
 #        self.val = x
 #        self.next = None
 
+
+## TC : O(N) and SC : O(1)
 class Solution:
     # @param A : head node of linked list
     # @param B : integer
