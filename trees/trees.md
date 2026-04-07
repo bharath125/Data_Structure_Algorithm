@@ -1,3 +1,3 @@
 ## trees 
 
-## types of Trees
+## types of Binary Tree
