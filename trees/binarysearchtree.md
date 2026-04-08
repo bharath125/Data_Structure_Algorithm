@@ -1,2 +1,3 @@
 ##  binarysearchtree
-## convert from sorted array tobinary search tree
+## convert from sorted array to binary search tree
+## in order binary search tree to sorted to array
