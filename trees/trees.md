@@ -5,3 +5,4 @@
 ## Complete Binary Tree
 
 ## BST
+## Search in BST
