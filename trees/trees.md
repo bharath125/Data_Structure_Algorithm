@@ -7,3 +7,4 @@
 ## BST
 ## Searching in BST
 ## Insertion in BST
+## Deletion in BST
