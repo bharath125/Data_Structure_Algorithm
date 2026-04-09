@@ -5,4 +5,5 @@
 ## Complete Binary Tree
 
 ## BST
-## Search in BST
+## Searching in BST
+## Insertion in BST
