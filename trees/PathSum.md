@@ -1,3 +1,3 @@
 ## Path Sum
-## observation 
+## observations
 ## dry run code
