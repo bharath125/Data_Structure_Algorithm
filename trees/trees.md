@@ -4,7 +4,7 @@
 ## Proper Binary Tree
 ## Complete Binary Tree
 
-## BST
+## BST Binary Search Tree
 ## Searching in BST
 ## Insertion in BST
 ## Deletion in BST
