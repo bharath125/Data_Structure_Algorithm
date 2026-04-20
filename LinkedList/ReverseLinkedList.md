@@ -1,4 +1,4 @@
-# 🔄 Reverse a Linked List — In-Place, One-Pass
+# 🔄 Reverse a Linked List — In-Place, One-Pas
 
 > **Difficulty:** Beginner → Intermediate
 > **Topic:** Linked Lists · Pointer Manipulation · In-Place Reversal
