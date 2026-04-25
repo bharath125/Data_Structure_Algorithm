@@ -1,3 +1,3 @@
 ## prime number
 ## Obeservation
-## code
+## dry code
