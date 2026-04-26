@@ -1,1 +1,2 @@
 ## MathsandPointers
+## Pascal's triangle
