@@ -1,4 +1,5 @@
 ## MathsandPointers
 ## Pascal's triangle
 ## observation
-## dry code
+## code 
+## implemntation
