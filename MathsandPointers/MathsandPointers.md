@@ -2,4 +2,4 @@
 ## Pascal's triangle
 ## observation
 ## code 
-## implemntation
+## implementation
