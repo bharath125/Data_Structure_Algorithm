@@ -10,4 +10,6 @@
 ## Deletion in BST
 
 ##  code
+## brute force code
 ## implementation
+
