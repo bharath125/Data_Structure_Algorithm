@@ -10,6 +10,6 @@
 ## Deletion in BST
 
 ##  code
-## brute force code
+## brute force code and time 
 ## implementation code
 
