@@ -11,5 +11,5 @@
 
 ##  code
 ## brute force code
-## implementation
+## implementation code
 
