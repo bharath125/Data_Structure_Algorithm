@@ -1,4 +1,4 @@
-# 🔗 Kth Node in a Linked List — Index-Based Acces
+# 🔗 Kth Node in a Linked List — Index-Based Access
 
 > **Difficulty:** Absolute Beginner → Comfortable
 > **Topic:** Linked Lists · Traversal · 0-Based Indexing · Bounds Checking
