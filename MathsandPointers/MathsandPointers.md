@@ -3,4 +3,4 @@
 ## observation
 ## code 
 ## implementation
-## brute force
+## brute force code
