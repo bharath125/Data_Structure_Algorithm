@@ -1,4 +1,4 @@
 ##
 ## Backtracking
 ## code
-## brute force 
+## brute force code
