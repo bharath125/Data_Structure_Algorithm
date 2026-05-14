@@ -1,2 +1,2 @@
 ## DoubleLikedList
-## brute
+## brute force code
