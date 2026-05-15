@@ -4,4 +4,4 @@
 ## brute force code
 ## updated code
 ## new implementation
-## brute
+## brute force
