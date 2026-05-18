@@ -1,2 +1,2 @@
 # Cheatsheet 
-## array 
+## array methods
