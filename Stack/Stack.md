@@ -4,4 +4,4 @@
 ## dry run code
 ## implementation
 ## what are stacks ??
-## brute force 
+## brute force code
