@@ -1,3 +1,3 @@
 # Cheatsheet 
 ## array methods
-## brute force
+## brute force code
