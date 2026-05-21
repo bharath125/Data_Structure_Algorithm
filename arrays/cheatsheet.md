@@ -1,4 +1,4 @@
 # Cheatsheet 
 ## array methods
 ## brute force code
-## Time Complexity
+## Best Time Complexity
