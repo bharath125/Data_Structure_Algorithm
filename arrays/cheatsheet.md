@@ -2,4 +2,4 @@
 ## array methods
 ## brute force code
 ## Best Time Complexity
-## and Worst Time
+## and Worst Time Complexity
