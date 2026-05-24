@@ -4,4 +4,4 @@
 ## Best Time Complexity
 ## and Worst Time Complexity
 ## code implementation
-## brute force
+## brute force code
