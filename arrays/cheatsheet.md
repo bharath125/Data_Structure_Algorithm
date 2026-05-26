@@ -5,6 +5,6 @@
 ## and Worst Time Complexity
 ## code implementation
 ## brute force code
-## code 
+## code time 
 ## best Time Complexity
 ## worst time complexity
