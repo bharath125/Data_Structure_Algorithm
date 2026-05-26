@@ -7,4 +7,4 @@
 ## brute force code
 ## code time 
 ## best Time Complexity
-## worst time complexity
+## worst Time complexity
