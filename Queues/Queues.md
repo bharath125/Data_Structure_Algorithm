@@ -2,4 +2,4 @@
 ## code
 ## implementation
 ## brute force
-## best
+## best time
