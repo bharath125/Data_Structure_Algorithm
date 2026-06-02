@@ -1,2 +1,2 @@
-## best implementation
+## best code implementation
 ## brute force code
