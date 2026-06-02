@@ -1,2 +1,2 @@
 ## implementation
-## brute force
+## brute force code
