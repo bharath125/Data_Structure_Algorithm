@@ -1,4 +1,4 @@
 ## Sort
 ## best code implementation
-## brute force 
+## brute 
 
