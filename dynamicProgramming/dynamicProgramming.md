@@ -4,4 +4,4 @@
 ## memory
 ## code optimization
 ## knapsack questions
-## code 
+## code opti
