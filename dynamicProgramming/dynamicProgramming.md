@@ -6,4 +6,4 @@
 ## knapsack questions
 ## code optimization
 ## Time Complexity 2^N
-## reduce
+## reduce number
