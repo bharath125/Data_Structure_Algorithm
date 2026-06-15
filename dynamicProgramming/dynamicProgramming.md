@@ -8,4 +8,4 @@
 ## Time Complexity 2^N
 ## reduce number of operation
 ## code optimization
-## best
+## best code
