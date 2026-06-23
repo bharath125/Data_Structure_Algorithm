@@ -7,5 +7,4 @@
 ## code optimization
 ## Time Complexity 2^N
 ## reduce number of operation
-## 
 ## best code optimization
