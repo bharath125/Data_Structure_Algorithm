@@ -4,7 +4,7 @@
 ## memory
 ## code optimization
 ## knapsack questions
-## code optimization
+## code 
 ## Time Complexity 2^N
 ## reduce number of operation
 
