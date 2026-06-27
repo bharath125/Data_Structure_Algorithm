@@ -1,6 +1,6 @@
 ## dynamicProgramming
 ## code implementation
-## best time 
+## best 
 ## code optimization
 ## knapsack questions
 ## Time Complexity 2^N
