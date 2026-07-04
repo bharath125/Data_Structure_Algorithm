@@ -1,5 +1,5 @@
 ## dynamicProgramming
-## knapsack questions
+## knapsack questions and
 ## Time Complexity 2^N
 ## reduce number of operation
 ## better code implementation 
