@@ -4,5 +4,5 @@
 ## reduce number of operation
 ## better code implementation 
 ## Dynamic Programming code explanation
-## code opt
+## code opti
 
