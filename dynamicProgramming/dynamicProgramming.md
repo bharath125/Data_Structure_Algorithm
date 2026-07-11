@@ -2,7 +2,7 @@
 ## knapsack questions and solutions
 ## Time Complexity 2^N
 ## reduce number of operation
-## better code impleme
+## better code imple
 ## Dynamic Programming code explanation
 ## code optimization
 
