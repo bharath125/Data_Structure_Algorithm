@@ -4,4 +4,4 @@
 ## reduce number of operation
 ## better code 
 ## Dynamic Programming code explanation
-## cod
+## co
