@@ -2,5 +2,5 @@
 ## knapsack questions and solutions
 ## Time Complexity 2^N
 ## reduce number of operation
-## b
+## be
 ## Dynamic Programming code explanation
