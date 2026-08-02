@@ -2,5 +2,5 @@
 ## knapsack questions and solutions
 ## Time Complexity 2^N
 ## reduce number of operation
-## best co
+## best cod
 ## Dynamic Programming code explanation
