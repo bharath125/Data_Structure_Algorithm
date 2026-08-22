@@ -5,4 +5,4 @@
 ## best code implemention
 ## Dynamic Programming code 
 ## Code updated with more solutions and logic
-## updated the code with more better
+## updated the code with more better code
