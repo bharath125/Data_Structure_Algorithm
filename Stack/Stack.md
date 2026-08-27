@@ -1,6 +1,6 @@
 ## Stack introduction
 ## Obeservations
-## code with
+## code with time
 ## dry run code
 ## implementation
 ## what are stacks ??
