@@ -8,5 +8,5 @@
 ## updated
 ## code update
 ## dp logic update
-## more solution
+## more solutions
 ## adding more problems and solutions
