@@ -7,7 +7,7 @@
 ## Code updated with more solutions and logic
 
 
-## dp logic 
+## dp 
 ## more solutions
 ## adding more problems and solutions
 ## learning journal and 
