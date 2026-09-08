@@ -8,6 +8,6 @@
 
 
 
-## more 
+## 
 ## adding more problems and solutions
 ## learning journal and 
