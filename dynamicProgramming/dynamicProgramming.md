@@ -9,5 +9,5 @@
 
 
 
-## adding more problems and 
+## adding more problems 
 ## learning journal and 
