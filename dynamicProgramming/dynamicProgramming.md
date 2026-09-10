@@ -9,5 +9,4 @@
 
 
 
-## 
 ## learning journal and 
