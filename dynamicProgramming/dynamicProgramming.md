@@ -9,4 +9,4 @@
 
 
 
-## learning journal and 
+## learning journal 
