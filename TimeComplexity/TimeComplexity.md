@@ -1,2 +1,2 @@
 ## Time Complexity
-## Power of Observation + Time Complexity and 
+## Power of Observation + Time Complexity and Space Complexity
