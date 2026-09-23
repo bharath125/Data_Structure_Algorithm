@@ -1,12 +1,15 @@
+<p align="center">🏠 <a href="README.md">Home</a> &nbsp;|&nbsp; <a href="Session-2.md">Session 2 ➡️</a></p>
+
 <div align="center">
 
-# 📘 DSA Notes — Learning Journey
+# 📗 Session 1: Time Complexity & Power of Observation
 
-**Handwritten class notes → clean, revisable GitHub notes**
+</div>
 
-![Topic](https://img.shields.io/badge/Topic-Time%20Complexity-blue)
+<div align="center">
+
 ![Language](https://img.shields.io/badge/Code-Python%20%7C%20Pseudocode-yellow)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+![Status](https://img.shields.io/badge/Session-1-green)
 
 </div>
 
@@ -25,8 +28,13 @@
    - [`i * i <= n` vs `i <= sqrt(n)`](#-i--i--n-vs-i--sqrtn)
    - [My Python Code](#-my-python-code)
    - [Quick Revision Summary](#-quick-revision-summary)
-3. [🧮 Arrays and Manipulation](#-arrays-and-manipulation)
-4. [📸 Original Notebook Pages](#-original-notebook-pages)
+3. [🔢 Using countFactors to Check Prime Numbers](#-using-countfactors-to-check-prime-numbers)
+4. [📐 Big O: How Can We Compare Algorithms?](#-big-o-how-can-we-compare-algorithms)
+   - [The 3 Steps to Find Big O](#-the-3-steps-to-find-big-o)
+   - [Worked Examples](#-worked-examples)
+   - [Order of Growth (Slowest → Fastest Growing)](#-order-of-growth-slowest--fastest-growing)
+   - [Why Can We Ignore Lower Order Terms?](#-why-can-we-ignore-lower-order-terms)
+5. [📸 Session 1: Notebook Pages](#-session-1-notebook-pages)
 
 ---
 
@@ -294,14 +302,140 @@ print(count)   # 9
 
 ---
 
-## 🧮 Arrays and Manipulation
+## 🔢 Using countFactors to Check Prime Numbers
 
 > [!NOTE]
-> 🚧 *Notes coming soon — will be added after the next class.*
+> *Added to connect the countFactors code with prime numbers.*
+
+A **prime number** has **exactly 2 factors**: `1` and **itself**.
+
+| n | Factors | Count | Prime? |
+|:---:|:---|:---:|:---:|
+| 1 | 1 | 1 | ❌ |
+| 7 | 1, 7 | 2 | ✅ |
+| 10 | 1, 2, 5, 10 | 4 | ❌ |
+| 13 | 1, 13 | 2 | ✅ |
+
+So we can **reuse** our optimized `countFactors`:
+
+```python
+def count_factors(n):
+    count = 0
+    i = 1
+    while i * i <= n:
+        if n % i == 0:
+            if i == n // i:
+                count += 1
+            else:
+                count += 2
+        i += 1
+    return count
+
+
+def is_prime(n):
+    return count_factors(n) == 2
+
+
+print(is_prime(13))   # True
+print(is_prime(24))   # False
+print([n for n in range(1, 40) if is_prime(n)])
+# [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
+```
+
+| | Time Complexity | Space Complexity |
+|:---|:---:|:---:|
+| `is_prime` using optimized `count_factors` | **O(√n)** | **O(1)** |
 
 ---
 
-## 📸 Original Notebook Pages
+## 📐 Big O: How Can We Compare Algorithms?
+
+**Idea 1** was counting iterations (from the factors problem).
+**Idea 2 ➜ Big O Complexity** 🏆
+
+Big O gives us:
+1. A common **comparison criteria** for algorithms
+2. The **worst case** of an algorithm
+
+### 🪜 The 3 Steps to Find Big O
+
+| Step | What to do |
+|:---:|:---|
+| **1️⃣** | **Calculate** the number of iterations |
+| **2️⃣** | **Ignore lower order terms** |
+| **3️⃣** | **Ignore constant coefficients** |
+
+### ✏️ Worked Examples
+
+#### Example 1: Iterations = `100 log₂n`
+
+| Step | Result |
+|:---|:---|
+| 1️⃣ Number of iterations | `100 log₂n` |
+| 2️⃣ Ignore lower order terms | Nothing to ignore (only one term) |
+| 3️⃣ Ignore constant coefficient | ~~100~~ `log₂n` |
+| ✅ **Big O** | **O(log n)** |
+
+#### Example 2: Iterations = `4n + 3n² + 60 log₂n`
+
+| Step | Result |
+|:---|:---|
+| 1️⃣ Number of iterations | `4n + 3n² + 60 log₂n` |
+| 2️⃣ Ignore lower order terms | Among `n`, `n²`, `log₂n`, the highest is **n²**, so cancel `4n` and `60 log₂n` |
+| 3️⃣ Ignore constant coefficient | ~~3~~`n²` |
+| ✅ **Big O** | **O(n²)** |
+
+#### Example 3: Iterations = `4n + 3n log n + 1`
+
+`n × log n` is the higher term ➜ **Big O = O(n log n)**
+
+#### Example 4: Iterations = `4n log n + 3n√n + 10⁶`
+
+**Big O = O(n√n)**
+
+Why is `n√n` bigger than `n log n`? Try **n = 100**:
+
+```
+√100    = 10
+log₂100 = 6.6...
+```
+
+So `√n > log n`, which means `n√n > n log n`. And `10⁶` is just a constant.
+
+### 📈 Order of Growth (Slowest → Fastest Growing)
+
+```
+log₂n  <  √n  <  n  <  n log n  <  n√n  <  n²  <  n³  <  ...  <  2ⁿ  <  n!  <  nⁿ
+```
+
+> [!TIP]
+> *Added for revision:* rough values at **n = 100** to feel the difference
+>
+> | log₂n | √n | n | n log n | n√n | n² | n³ | 2ⁿ | n! |
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+> | ≈ 6.6 | 10 | 100 | ≈ 664 | 1,000 | 10⁴ | 10⁶ | ≈ 10³⁰ | ≈ 10¹⁵⁸ |
+
+### 🤔 Why Can We Ignore Lower Order Terms?
+
+*Is it OK to blindly ignore them?* Let's check with an example.
+
+**Iterations = `n² + 10n`** ➜ **Big O = O(n²)**
+- Higher order term = `n²`
+- Lower order term = `10 × n`
+
+| Input size | Iterations `[n² + 10n]` | % of lower term contribution in total iterations |
+|:---:|:---|:---|
+| **n = 10** | 10² + 10×10 = **200** | L.O. = 10×10 = 100 → 100/200 × 100% = **50%** |
+| **n = 100** | 100² + 10×100 = 10000 + 1000 = **11,000** | L.O. = 10×100 = 1000 → 1000/11000 × 100% = **≈ 9%** |
+| **n = 10⁴** | (10⁴)² + 10×10⁴ = **10⁸ + 10⁵** | L.O. = 10×10⁴ = 10⁵ → 10⁵/(10⁸ + 10⁵) × 100% = **≈ 0.1%** |
+
+> [!IMPORTANT]
+> **Conclusion:** As input size increases, the **contribution of the lower order term decreases significantly**.
+> That's why Big O keeps only the highest term.
+
+---
+
+## 📸 Session 1: Notebook Pages
 
 <details>
 <summary><b>Click to view my handwritten notes</b></summary>
@@ -320,7 +454,19 @@ print(count)   # 9
 
 <img src="images/page-3.jpeg" alt="Notebook page 3" width="600">
 
+**Page 4: Big O, the 3 steps, examples 1 & 2**
+
+<img src="images/page-4.jpeg" alt="Notebook page 4" width="600">
+
+**Page 5: Examples 3 & 4, order of growth, lower order terms table**
+
+<img src="images/page-5.jpeg" alt="Notebook page 5" width="600">
+
 </details>
+
+---
+
+<p align="center">🏠 <a href="README.md">Home</a> &nbsp;|&nbsp; <a href="Session-2.md">Session 2 ➡️</a></p>
 
 ---
 
