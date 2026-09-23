@@ -218,7 +218,7 @@ Coming up in Session 2:
 
 ---
 
-<p align="center"><a href="Session-1.md">⬅️ Session 1</a> &nbsp;|&nbsp; 🏠 <a href="README.md">Home</a></p>
+<p align="center"><a href="TimeComplexity.md">⬅️ TimeComplexity.md</a> &nbsp;|&nbsp; 🏠 <a href="README.md">Home</a></p>
 
 ---
 
