@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 📙 Session 2: Constraints, Space Complexity & Arra
+# 📙 Session 2: Constraints, Space Complexity & Arrays
 
 </div>
 
