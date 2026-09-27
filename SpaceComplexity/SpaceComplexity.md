@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 📙 Session 2: Constraints, Space  & Arrays
+# 📙 Session 2: Constraints, Space Com  & Arrays
 
 </div>
 
