@@ -11,7 +11,7 @@
 
 ---
 
-## 📑 Table of 
+## 📑 Table 
 
 1. [📅 Agenda](#-agenda)
 2. [❓ Problem: Range Sum Queries](#-problem-range-sum-queries)
