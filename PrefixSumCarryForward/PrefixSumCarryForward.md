@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 📘 Session 3: Arrays — Prefix Sum and Carry 
+# 📘 Session 3: Arrays — Prefix Sum and 
 
 ![Language](https://img.shields.io/badge/Code-Python%20%7C%20Pseudocode-yellow)
 ![Status](https://img.shields.io/badge/Session-3-purple)
