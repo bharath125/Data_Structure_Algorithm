@@ -2,4 +2,4 @@
 ## better code
 ## time complexity
 ## space complexity
-## best time
+## best time complexity
