@@ -1,7 +1,7 @@
 ## dynamicProgramming
 ## knapsack questions and solutions
 ## Time Complexity 2^N
-## updated the more 
+## updated the more code
 
 
 
