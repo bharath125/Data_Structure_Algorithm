@@ -1,4 +1,4 @@
-# 📚 Stack & Call Stack — A Complete Beginner's Guide
+# 📚 Stack & Call Stack — A Complete Beginner's 
 
 > **Who is this for?** Total beginners and learners who want to understand how a stack works and how your computer uses the call stack when running code.
 
