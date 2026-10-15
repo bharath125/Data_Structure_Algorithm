@@ -1,5 +1,5 @@
 ## Sliding Window and ContribuspaceContributionContributiontion Technique
 ## better code
 ## time complexity
-## scomplexxity
+## scomplex
 ## best time complexity
