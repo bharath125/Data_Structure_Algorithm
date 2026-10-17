@@ -1,5 +1,5 @@
 ## dynamicProgramming
-## knapsack questions a
+## knapsack questi
 ## Time Complexity 2^N
 
 
