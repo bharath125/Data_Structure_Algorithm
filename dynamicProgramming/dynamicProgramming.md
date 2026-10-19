@@ -1,4 +1,4 @@
-## dynamicProgramm
+## dynamicPro
 ## Time Complexity 2^N
 
 
