@@ -10,7 +10,7 @@
 ## space complexity
 
 ## best time complexity
-## worst time complexity
+## worst time comp
 
 
 
