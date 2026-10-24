@@ -7,9 +7,7 @@
 
 ## time complexity
 
-## space complexity
-
-#
+## space comple
 
 
 
