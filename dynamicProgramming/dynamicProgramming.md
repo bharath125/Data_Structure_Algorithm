@@ -5,7 +5,7 @@
 
 
 
-## time complexity
+## time com
 
 
 
