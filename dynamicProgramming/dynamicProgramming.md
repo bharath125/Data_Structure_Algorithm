@@ -1,5 +1,5 @@
 #
-## Time Complexity 2^N
+## Time Complexity 2^
 
 
 
