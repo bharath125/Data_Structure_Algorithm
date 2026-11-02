@@ -1,4 +1,5 @@
 ## MinimumSwap
 
+## brute force approach
 
 
