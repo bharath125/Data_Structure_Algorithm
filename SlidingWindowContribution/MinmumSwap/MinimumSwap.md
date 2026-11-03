@@ -12,5 +12,6 @@
 - Final Time Complexity O(N) + ( O(N - K + 1) x O(K) ) = O(N^2)
 
 ## My Optimize solution steps:
+- eg:; A = [1, 12, 10, 3, 14, 10, 5] , B = 8
 
 
