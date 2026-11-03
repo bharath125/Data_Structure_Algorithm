@@ -9,6 +9,8 @@
 - put the if condition with iterated elements are greater than B, and update the count_swap_nums
 - update the min_swap if the count_swap_nums less than min_swap 
 - update start_index + 1 and end_index + 1
-- Final Time Complexity O(N) + ( O(N - K + 1) x O(K) ) = O(N^2) 
+- Final Time Complexity O(N) + ( O(N - K + 1) x O(K) ) = O(N^2)
+
+## My Optimize solution steps:
 
 
