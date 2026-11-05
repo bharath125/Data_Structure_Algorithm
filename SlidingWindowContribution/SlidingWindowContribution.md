@@ -1,5 +1,5 @@
 ## Sliding Window and ContribuspaceContributionContributiontion Technique
-## better c
+## bet
 
 ## time complexity
 
