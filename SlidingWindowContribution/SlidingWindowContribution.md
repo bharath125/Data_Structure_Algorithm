@@ -3,4 +3,4 @@
 
 ## time complexity
 
-## best time comp
+## best ti
