@@ -1,5 +1,5 @@
 ## Sliding Window and ContribuspaceContributionContributiontion Technique
 
 
-## time comp
+## time c
 
