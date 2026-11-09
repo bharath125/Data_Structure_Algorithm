@@ -1,3 +1,3 @@
-## Sliding Window and ContribuspaceContributionContributiontion Technique
+## Sliding Window and ContribuspaceContributionContribu Technique
 
 
