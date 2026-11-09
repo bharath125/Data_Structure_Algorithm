@@ -1,3 +1,3 @@
-## Sliding Window and ContribuspaceContri
+## Sliding Window and Contribuspace
 
 
