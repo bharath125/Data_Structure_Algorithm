@@ -14,6 +14,6 @@
 ## My Optimize solution steps:
 - eg:; A = [1, 12, 10, 3, 14, 10, 5] , B = 8
 - first window [1,12,10] for loop run on this and checks and count 12, 10 greater than B
-- second window
+- second window [12,10,3] for loop run on this and checks 
 
 
