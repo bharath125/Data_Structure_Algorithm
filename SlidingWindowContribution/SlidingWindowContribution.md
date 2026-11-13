@@ -1,3 +1,3 @@
-## Sliding 
+## Sliding window
 
 
