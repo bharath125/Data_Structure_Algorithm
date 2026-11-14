@@ -1,3 +1,3 @@
 ## Sliding window technique
-## solving the sliding 
+## solving the sliding window problems
 
