@@ -1,2 +1,2 @@
 ## SubArraywithAvg
-## Time
+## Time Complexity
