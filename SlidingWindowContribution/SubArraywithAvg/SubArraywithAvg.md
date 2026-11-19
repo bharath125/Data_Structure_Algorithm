@@ -1,3 +1,3 @@
 ## SubArraywithAvg
 ## Time Complexity
-## best
+## best time 
