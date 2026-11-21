@@ -20,8 +20,10 @@ Problem Constraints
 ## My Optimizaed solution 
 - as I have the O(N^2) Time Complexity eventhough the solution is correct it will throw TLE
 - the fix at every window I am calculating the sum of the subarray this repetation we need to reduce
-- so for the first window, I will calculate the sum of subarray, but for the second window I will subbarray first element I will subtract and end of the subarray I will end new element
-- 
+- so for the first window, I will calculate the sum of subarray for the B, but for the second window, from the subarray first element I will subtract and end of the subarray I will end new element
+- here is how the the code writing goes like this
+- declare variables min_subarr_index = 0 and total=0
+- find the first window for the subarray of value B with for loop from 0 to B - 1 
 
 
 
