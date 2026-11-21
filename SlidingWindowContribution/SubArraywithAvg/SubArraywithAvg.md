@@ -24,7 +24,14 @@ Problem Constraints
 - here is how the the code writing goes like this
 - declare variables min_subarr_index = 0 and total=0
 - find the first window for the subarray of value B with for loop from 0 to B - 1 and update the total variable for each element from the first window subaray
-- declare min_avg = total/B and start_index = 1 and end_index = B 
+- declare min_avg = total/B and start_index = 1 and end_index = B
+- create while with stop condition as end < len(A) (why not equal sign you will come in the while loop)
+- here is the important part which shows the sliding window technique, we will do the sum which take O(B), now total - A[start_index - 1] (first window 0th index) + A[end_index] (second window first element ) which takes the O(1) time complexity
+- and find the avg = total/B and if the avg less than the min_avg is min_avg = avg and min_subarr_index=start (updating the min_avg sub array index as 0th index)
+- and always remember update the start_index+=1 and end_index+=1 at each render
+- at outside of the while loop return min_subarr_index
+
+
 
 
 
