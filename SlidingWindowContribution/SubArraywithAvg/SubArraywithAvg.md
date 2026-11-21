@@ -23,7 +23,8 @@ Problem Constraints
 - so for the first window, I will calculate the sum of subarray for the B, but for the second window, from the subarray first element I will subtract and end of the subarray I will end new element
 - here is how the the code writing goes like this
 - declare variables min_subarr_index = 0 and total=0
-- find the first window for the subarray of value B with for loop from 0 to B - 1 
+- find the first window for the subarray of value B with for loop from 0 to B - 1 and update the total variable for each element from the first window subaray
+- declare min_avg = total/B and start_index = 1 and end_index = B 
 
 
 
