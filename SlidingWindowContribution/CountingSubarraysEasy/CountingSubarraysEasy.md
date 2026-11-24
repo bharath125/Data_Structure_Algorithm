@@ -1,2 +1,2 @@
 ## CountingSubarraysEasy
-## time
+## time complexity
