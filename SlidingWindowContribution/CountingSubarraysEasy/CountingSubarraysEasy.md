@@ -1,3 +1,3 @@
 ## CountingSubarraysEasy
 ## time complexity
-## best time 
+## best time complexity
