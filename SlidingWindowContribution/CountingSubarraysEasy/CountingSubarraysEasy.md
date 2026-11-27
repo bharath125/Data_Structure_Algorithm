@@ -1,4 +1,4 @@
 ## CountingSubarraysEasy
 ## time complexity
 ## best time complexity
-## best space 
+## best space complexity
